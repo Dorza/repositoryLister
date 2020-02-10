@@ -9,7 +9,7 @@
 * Tests can be run using ```npm run test``` for which there are a few basic tests.
 
 ## Usage
-* Across thet top of the page are two links to "Repositories" and "Organisations" pages, this uses react router.
+* Across the top of the page are two links to "Repositories" and "Organisations" pages, this uses react router.
 
 ### Repositories page
 

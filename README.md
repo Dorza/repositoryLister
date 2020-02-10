@@ -1,11 +1,8 @@
 # Readme
 
-## Branch Master
-Use this branch for running the app locally. The gh-pages branch is used exclusively to deploy the app to GitHub and has slight modifications to routing for it to deploy correctly, it can be ignored.
-
 ## Running locally
 
-* Pull the branch down with ```git clone https://github.com/Dorza/repositoryLister.git```
+* Pull the repo down with ```git clone https://github.com/Dorza/repositoryLister.git```
 * Then ```npm install```
 * Then ```npm start```
 * Page should open showing an input box and "Get Repos" button.

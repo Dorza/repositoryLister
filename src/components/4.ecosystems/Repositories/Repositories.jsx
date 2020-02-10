@@ -54,8 +54,8 @@ const getApiData = async (showPage) => {
 }
   const handleOnClick = async () => {
 
-    await doze(0);    
     setLoading(true);
+    await doze(3000);    
     getApiData(page);
     setLoading(false);
 

@@ -7,7 +7,7 @@ const Pagination = props => {
     const { handlePrev, handleNext } = props;
 
     return (
-      <div class="c-pagination">
+      <div className="c-pagination">
          <Button size="small" className="c-pagination__btn c-pagination__btn--prev" onClick={handlePrev} text="Previous" />
          <Button size="small" className="c-pagination__btn c-pagination__btn--next" onClick={handleNext} text="Next"/>
       </div>

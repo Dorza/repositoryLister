@@ -20,7 +20,9 @@ const Organisations = () => {
     const url = `/users/${username}/orgs`;
 
     setLoading(true);
-    await doze(0);;
+    
+    await doze(3000);
+
     await ajax.get(url).then(response => {
       const repos = response.data.map(repo => ({
         id: repo.id,

@@ -1,0 +1,89 @@
+.c-panel {
+    
+    border: 1px solid $panelBorder;
+    background-color: $panelBg;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    &__header {
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+        padding: .8rem;
+        background-color: $panelHeaderBg;
+        border-bottom: 1px solid $panelHeaderBorder;
+    }
+
+    &__avatar {
+        margin-right: 1.5rem;
+    }
+    
+    &__items {
+
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    &__item {
+        position: relative;
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 4.8rem;
+        align-items: center;
+        border-bottom: .1rem solid $panelItemBg;
+
+        &::before { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4rem;
+            height: 100%;
+            background-color: $panelItemBeforeBg;
+            background-repeat: no-repeat;
+            background-size: 60%;
+            background-position: center;            
+            content: "";
+        }
+
+        &--description {
+            &::before {
+
+                background-image: $panelInfo;
+            }
+        }
+
+        &--stars {
+            &::before {
+                background-image: $panelStars;
+            }
+        }
+        
+        &--created {
+            &::before {
+                background-image: $panelCreated;
+            }
+        }
+
+        
+        &--updated {
+            &::before {
+                background-image: $panelUpdated;
+            }
+        }
+
+        
+        &--view {
+            &::before {
+                background-image: $panelView;
+            }
+        }
+
+        &--branch {
+            &::before {
+                background-image: $panelBranch;
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+//Sass  color variables
+	//Colors
+	$aquaMarine: #07978A ;
+	$white: #ffffff;
+	$black: #000000;
+	$blackCurrant: #090611;
+	$backBerry: #150613;
+	$martinique: #3b3246;
+	$midnightExpress: #0E0C17;
+	$navyBlue: #0075d8;
+	$pineGreen: #046c63;
+	$seance: #572A64;
+	$sapphire: #100422;
+	$silver: #c1c1c1;
+	$sherpaBlue: #033146;
+	$tolopea: #150F1A;
+
+	//Alphas
+	$blackBerry3: rgba($backBerry, .3);
+	$blackCurrent1: rgba($blackCurrant, .1);
+	$midnightExpress6: rgba($midnightExpress, .6);
+	$sapphire6: rgba($sapphire, .6);
+	$silver1: rgba($silver, .1);
+	$silver2: rgba($silver, .2);
+	$silver4: rgba($silver, .4);
+	$white1: rgba($white, .1);
+	$white3: rgba($white, .3);
+
+	//Colour contexts
+
+		$text: $silver;
+		$bgGradient1: $sherpaBlue;
+		$bgGradient2: $martinique;
+		$inputBg: $white1;
+		$focusRing: $navyBlue;
+		$labelBorderColor: $silver4;
+
+		//primary button
+		$buttonBg: $navyBlue;
+		$buttonBgHov: lighten($buttonBg, 5%);
+		$buttonColor: $white;
+		$textBody: $white;
+
+		//secondary button
+		$btnSecondaryBg: $pineGreen;
+		$btnSecondaryBgHov: $aquaMarine;
+		$btnTertiaryBg: $pineGreen;
+		$btnTertiaryBgHov: $aquaMarine;
+
+		//NavBar
+		$navBarBg: $blackBerry3;
+		$navBarLinkBg: $tolopea;
+		$navBarLinkColor: $white;
+		$navBarLInkHovBg: $seance;
+
+		//pagination
+		$paginationBg: $blackCurrent1;
+		$paginationBtnBg: $silver1;
+		$paginationBtnBgHov: $silver2;
+
+		//spinner
+		$spinnerBeforeTrackBg: $white3;
+		$spinnerAfterTrackFg: $white;
+
+		//panel
+		$panelBorder: $blackCurrant;
+		$panelBg: $midnightExpress6;
+		$panelHeaderBg: $blackBerry3;
+		$panelHeaderBorder: $black;
+		$panelItemBg: $black;
+		$panelItemBeforeBg: $sapphire6;

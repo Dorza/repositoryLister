@@ -1,0 +1,23 @@
+//Define images
+    $iconAdd: "#{$iconsPath}/add.png";
+    $iconBranch: "#{$iconsPath}/branch.png";
+    $iconCloud: "#{$iconsPath}/cloud.png";
+    $iconInfo: "#{$iconsPath}/info.png";
+    $iconNext: "#{$iconsPath}/next.png";
+    $iconPrevious: "#{$iconsPath}/previous.png";
+    $iconStar: "#{$iconsPath}/star.png";
+    $iconView: "#{$iconsPath}/view.png";
+
+//Define image context
+
+    //Pagination
+    $btnPrevious: url($iconPrevious);
+    $btnNext: url($iconNext);
+
+    //panel
+    $panelBranch: url($iconBranch);
+    $panelCreated: url($iconAdd);
+    $panelUpdated: url($iconCloud);
+    $panelInfo: url($iconInfo);
+    $panelStars: url($iconStar);
+    $panelView: url($iconView);

@@ -1,0 +1,15 @@
+input {
+    padding: {
+        top: .8rem;
+        right: .8rem;
+        bottom: .8rem;
+        left: .8rem;			
+    }
+    border: 0;
+    font-size: 1.6rem;
+    font-family: $fontStackPrimary;
+    color: $text;
+    background: $inputBg;
+    border: .2rem solid transparent;
+    border-radius: .8rem;
+}

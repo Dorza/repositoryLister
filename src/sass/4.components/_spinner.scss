@@ -1,0 +1,43 @@
+.c-spinner {
+
+    position: relative;
+    padding: .8rem;
+    padding-left: 4rem;
+
+    &::before,
+    &::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: .8rem;
+        border-radius: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-width: .2rem;
+        border-style: solid;
+        content: "";
+    }
+
+    &::before {
+        border-color: $spinnerBeforeTrackBg;
+    }
+
+    &::after {
+        border-color: transparent;
+        border-top-color: $spinnerAfterTrackFg;
+        animation: spin .8s linear infinite;
+    }
+
+    @keyframes spin {
+
+        from {
+            transform: translateY(-50%) rotate(0deg);
+        }
+
+        to {
+            transform: translateY(-50%) rotate(360deg);
+        }
+    }
+
+
+}

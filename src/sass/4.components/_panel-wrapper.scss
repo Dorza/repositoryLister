@@ -1,0 +1,8 @@
+.c-panel-wrapper {
+
+    display: grid;
+    align-items: center;
+    grid-gap: 1.8rem;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));   
+    align-items: flex-start;
+}

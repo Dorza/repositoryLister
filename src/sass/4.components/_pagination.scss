@@ -1,0 +1,54 @@
+.c-pagination {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: .8rem;
+    background: $paginationBg;
+    border-radius: .4rem;
+
+    &__btn {
+        position: relative;
+        margin: 0 .2rem;
+        width: 10rem;
+        background-color: $paginationBtnBg;
+        &:hover {
+         
+            background-color: $paginationBtnBgHov;
+
+        }
+
+        &::before,
+        &::after {
+
+            display: block;
+            position: absolute;
+            top: 50%;
+            width: 2rem;
+            height: 2rem;
+            background-size: contain;
+            background-position: center;
+            transform: translateY(-50%);
+        }
+        
+        &--prev {
+
+            padding-left: 3rem;
+            
+            &::before {
+                left: .3rem;
+                background-image: $btnPrevious;
+                content: "";
+            }
+        }
+
+        &--next {
+            
+            &::after {
+                right: .3rem;
+                background-image: $btnNext;
+                content: "";
+            }
+        }
+    }
+}

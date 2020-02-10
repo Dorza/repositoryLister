@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-size: 1.4rem;
+    background: -webkit-radial-gradient(bottom right, $bgGradient1, $bgGradient2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: $fontStackPrimary;
+    color: $textBody;
+  }

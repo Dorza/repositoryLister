@@ -1,18 +1,18 @@
 # Readme
 
-## Branch Master
-Use this branch for running the app locally. The gh-pages branch is used exclusively to deploy the app to GitHub and has slight modifications to routing for it to deploy correctly, it can be ignored.
+## Hosted solution
+Found at: https://dorza.github.io/repositoryLister/
 
 ## Running locally
 
-* Pull the branch down with ```git clone https://github.com/Dorza/repositoryLister.git```
+* Pull the repo down with ```git clone https://github.com/Dorza/repositoryLister.git```
 * Then ```npm install```
 * Then ```npm start```
 * Page should open showing an input box and "Get Repos" button.
 * Tests can be run using ```npm run test``` for which there are a few basic tests.
 
 ## Usage
-* Across thet top of the page are two links to "Repositories" and "Organisations" pages, this uses react router.
+* Across the top of the page are two links to "Repositories" and "Organisations" pages, this uses react router.
 
 ### Repositories page
 

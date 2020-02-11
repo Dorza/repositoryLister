@@ -56,7 +56,7 @@ const getApiData = async (showPage) => {
 
     setLoading(true);
     await doze(3000);    
-    getApiData(page);
+    getApiData(1);
     setLoading(false);
 
   };
